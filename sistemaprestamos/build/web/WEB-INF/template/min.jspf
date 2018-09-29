@@ -1,0 +1,193 @@
+ <header id="header" class="page-topbar">
+      <!-- start header nav-->
+      <div class="navbar-fixed">
+        <nav class="navbar-color blue-grey darken-4">
+          <div class="nav-wrapper">
+            <ul class="left">
+              <li>
+                <h1 class="logo-wrapper">
+                  <a href="index.html" class="brand-logo darken-1">
+                      <img src="vk.png" alt="Logo" style="width:40px;" height="40px;">
+                      <spam style="position:absolute;"> Alphalpha</spam>
+                  </a>
+                </h1>
+              </li>
+            </ul>
+            
+            <ul class="right hide-on-large-and-down">
+
+
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown">
+                  <span class="flag-icon flag-icon-gb"></span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen">
+                  <i class="material-icons">settings_overscan</i>
+                </a>
+              </li>
+              <li >
+
+                  <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" 
+                     href="#" data-activates="profile-dropdown-nav" style="width:150px">
+
+                                                              
+                              <img src="lol.png" alt="Contact Person" width="35px;" heigth="35px;">
+                                                          
+                          <pan>Emily </pan>                               
+                            
+                  </a>
+
+              </li>
+              
+            </ul>
+            <!-- translation-button -->
+            <ul id="translation-dropdown" class="dropdown-content">
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-gb"></i> English</a>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-fr"></i> French</a>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-cn"></i> Chinese</a>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-de"></i> German</a>
+              </li>
+            </ul>
+            <!-- notifications-dropdown -->
+           
+            
+            
+            
+            <!-- profile-dropdown -->
+            <ul id="profile-dropdown" class="dropdown-content dropdown-nav center" >
+                <li class="center">
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">face</i>Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">settings</i>Opcion</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">live_help</i> Ayuda</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">lock_outline</i> Lock</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">keyboard_tab</i> Logout</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- end header nav-->
+    </header>
+    <!-- END HEADER -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- START MAIN -->
+    <div id="main">
+      <!-- START WRAPPER -->
+      <div class="wrapper">
+        <!-- START LEFT SIDEBAR NAV-->
+        <aside id="left-sidebar-nav">
+          <ul id="slide-out" class="side-nav fixed leftside-navigation">
+              <li class="user-details blue-grey lighten-4" >
+              <div class="row">
+                <div class="col col s4 m4 l4">
+                  <img src="2.png" alt="" class="circle responsive-img valign profile-image cyan">
+                </div>
+                <div class="col col s12 m12 l12">
+                    
+                    <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#"  >
+                      Emily Ccana<i class=""></i></a>
+                    <p class="user-roal">Secretaria</p>
+                  
+                  
+                  
+                  
+                    <ul id="profile-dropdown-nav" class="dropdown-content">
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">face</i>Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">live_help</i>Ayuda</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">lock_outline</i> Lock</a>
+                        </li>
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">keyboard_tab</i>Salir</a>
+                        </li>
+                    </ul>
+                  
+                </div>
+              </div>
+            </li>
+            
+               <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion">
+                        <li class="no-padding"><a class="waves-effect waves-grey" href="registrarProfesores.jsp">
+                        <i class="material-icons ">add_circle</i>Añadir Profesor</a></li>
+                        
+                        <li class="no-padding"><a class="waves-effect waves-grey" href="tablaProfesores.jsp">
+                        <i class="material-icons ">search</i>Buscar Profesor</a></li>
+                        
+                        <li class="no-padding"><a class="waves-effect waves-grey" href="Prestamo.jsp">
+                        <i class="material-icons green-text">assignment_ind</i>Prestamos</a></li>
+                        
+                        <!--colapso :,v
+                        <li class="no-padding">
+                            <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">assignment_ind</i>
+                                
+                                Registrar Profesor
+                                <i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="./registrarProfesores.jsp">Registrar Profesores</a></li>                                  
+                                    <li><a href="./Prestamo.jsp">Prestamos</a></li>
+                                    <li><a href="">Yano se que poner :) </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        -->
+                        
+                        <li class="no-padding"><a class="waves-effect waves-grey" href="reservas.jsp">
+                        <i class="material-icons blue-text">assignment</i>Reservas</a></li>
+                                
+                        <li class="no-padding"><a class="waves-effect waves-grey" href="Productos.jsp">
+                        <i class="material-icons red-text">business_center</i>Reportes</a></li>
+                       
+                        
+                      
+                    </ul>
+           
+          <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only">
+            <i class="material-icons">menu</i>
+          </a>
+            
+        </aside>
+        
+        <section id="content">
+          <!--start container-->
+          <div class="container">
+        
+          </div>
+       
+        </section>

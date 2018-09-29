@@ -1,0 +1,21 @@
+
+<script src="assetsd/plugins/jquery/jquery-2.2.4.min.js"></script>
+<script src="assets/plugins/materialize/js/materialize.min.js"></script>
+<script src="assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
+<script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+<script src="assets/plugins/fullcalendar/moment.min.js"></script>
+<script src="assets/plugins/fullcalendar/fullcalendar.min.js"></script>
+<script src="assets/js/alpha.min.js"></script>
+<script src="assets/js/pages/calendar.js"></script>
+<script>
+    $(function () {
+        /*Preloader*/
+        $(window).load(function () {
+            setTimeout(function () {
+                $('body').addClass('loaded');
+            }, 400);
+
+        });
+    });
+
+</script>
